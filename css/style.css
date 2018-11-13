@@ -1,0 +1,91 @@
+body {
+	text-align: center;
+	color: #fff;
+}
+
+/*This is my Main header*/
+.MAIN-HEADER {
+	margin-bottom: 10px;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button {
+	background: black;
+	color: white; 
+	padding: 10px 25px;
+}
+
+.button:hover {
+	background: gray;
+	color: black;
+}
+
+/*This is my Showcase*/
+.SHOWCASE {
+	padding: 200px;
+	background: blue;
+	margin-bottom: 10px;
+	background-image: url(../images/coron.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9fB260;
+}
+
+/*This is my Main article*/
+.MAIN-ARTICLE {
+	background: brown;
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}
+
+.main-article-left {
+	background: MidnightBlue;
+	padding: 20px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 5px #9f8260;
+}
+.main-article-left p{
+	margin: 40px 0 60px 0;
+	font-family: Courier New;
+	font-size: 15px;
+}
+.main-article-left h3 {
+	margin-top: 5px;
+}
+.main-article-right {
+	margin-top: 5px;
+}
+.main-article-right p{
+	font-family: Courier New;
+	font-size: 30px;
+}
+
+/*This is my Footer*/
+.FOOTER {
+	padding: 10px;
+	background: black;
+	margin-bottom: 10px;
+}
+.FOOTER h1{
+	font-size: 20px;
+	font-style: italic;
+	color: blue;
+}
+
+a {
+	text-decoration: none;
+}
+
